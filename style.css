@@ -1,0 +1,91 @@
+body {
+    background: url('images/background.png') repeat center;
+    background-size:contain;
+}
+
+.header {
+    background-color: #e1a9cc;
+}
+
+.footer{
+    background-color: #e1a9cc;
+    font-family: raleway;
+    font-size: 10px;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer2 {
+    background-color: #e1a9cc;
+    font-family: raleway;
+    font-size: 10px;
+    padding: 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu {
+    list-style: none;
+    text-align-last: center;
+    margin: 0;
+    padding: 25px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 16px;
+    font-family: raleway;
+    font-size: 30px;
+}
+.images {
+    margin-top: 30px;
+    display: inline-block;
+}
+.caption {
+    font-family: raleway;
+    font-size: 15px;
+    text-align: center;
+}
+.bubble {
+    margin: auto;
+    margin-top: 100px;
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e1a9cc;
+}
+.maintext{
+    position: relative;
+    bottom: 120px;
+    left: 150px;
+    width: 80%;
+    vertical-align: top;
+    font-family: raleway;
+    font-size: 15px;
+    word-wrap: break-word;
+    color: darkmagenta;
+    font-weight: 450;
+    margin:0;
+    
+}
+.self {
+    vertical-align: top;
+    margin: -30px;
+    margin-top: auto;
+    border-radius: 600px;
+}
+.mainvideo {
+    display: table;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+}
